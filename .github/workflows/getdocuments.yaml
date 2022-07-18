@@ -20,4 +20,4 @@ jobs:
         run: |
           
           curl -s ${SERVER_URL}/service/local/repositories/exo-snapshots/content/org/exoplatform/social/social/6.4.x-devx-SNAPSHOT/maven-metadata.xml | cat > test.txt
-         
+          cat test.txt       
